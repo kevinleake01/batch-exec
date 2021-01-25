@@ -11,7 +11,7 @@ You will see something like this:<br>
 /*<br>
 ####################################<br>
 #<br>
-# --- TPL-BATCH-EXEC-10.C ---<br>
+#--- TPL-BATCH-EXEC-10.C ---<br>
 #<br>
 ####################################<br>
 */<br>
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])<br>
 }<br>
 <br>
 <br>
-The Templates have been written in C and C++, and the system() command from <stdlib.h> or <cstdlib> makes the connection<br>
+The Templates have been written in C and C++, and the system() command from stdlib.h or cstdlib makes the connection<br>
 to the Unix/Linux command line. Here are some examples:<br>
 <br>
   system("ls -l\n");<br>
